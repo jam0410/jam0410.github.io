@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        h1 {
+            color: #e6005c;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #e6005c;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Will You Be My Valentine?</h1>
+    <p>Dear Michelle Ann Estorba,</p>
+    <p>I have something important to ask...</p>
+    <button onclick="askValentine()">Click to reveal the question</button>
+
+    <script>
+        function askValentine() {
+            alert("Will you be my Valentine?");
+        }
+    </script>
+</body>
+</html>
